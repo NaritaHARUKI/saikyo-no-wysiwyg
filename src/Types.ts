@@ -15,6 +15,18 @@ type Config = {
       start: string;
       end: string;
     };
+    underline: {
+      start: string;
+      end: string;
+    };
+    strikethrough: {
+      start: string;
+      end: string
+    };
+    list: {
+      start: string;
+      end: string;
+    }
   };
   
 export type { ColorKeys, Config };
