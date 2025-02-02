@@ -15,6 +15,18 @@ const config: Config = {
     start: 'な',
     end: 'な',
   },
+  underline: {
+    start: 'し',
+    end: 'し',
+  },
+  strikethrough: {
+    start: 'と',
+    end: 'と',
+  },
+  list: {
+    start: 'り',
+    end: 'り',
+  },
 }
 
 export default config
